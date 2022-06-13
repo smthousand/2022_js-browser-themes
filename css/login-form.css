@@ -1,0 +1,18 @@
+.login-form {
+    position: relative;
+    z-index: 1;
+    border: var(--border-range);
+    border-color: var(--border-outer);
+}
+
+.login-form:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: var(--border-range);
+    border-color: var(--border-inner);
+}

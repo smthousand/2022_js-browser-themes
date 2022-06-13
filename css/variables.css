@@ -1,0 +1,28 @@
+:root {
+    /* Color */
+    --primary: #c3c7cb;
+    /* lihgt */
+    --secondary: #868a8e;
+    /* muted */
+    --tertiary: #0000aa;
+    --success: #22bb33;
+    --danger: #bb2124;
+    --warning: #ffc107;
+    --info: #17a2b8;
+    --black: #000;
+    --white: #fff;
+
+    /* Font-size */
+    --main-title: 30px;
+
+    --border-line: 1px solid transparent;
+    --border-doubleline: 2px solid transparent;
+    --border-outer-line: #868a8e #fff #fff #868a8e;
+    --border-inner-line: #fff #868a8e #868a8e #fff;
+    --border-outer-img: url(/images/border-out.png) 2;
+    --border-inner-img: url(/images/border.png) 2;
+}
+
+/* ccc < aaa < 888*/
+
+    
