@@ -7,3 +7,12 @@
 .window-cont {
     padding: 15px 25px;
 }
+
+.window__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    color: var(--white);
+    background-color: var(--tertiary);
+    background-repeat: no-repeat;
+}

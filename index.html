@@ -12,37 +12,57 @@
 
 <body>
     <!-- greeting -->
-    <main class="main__greeting window">
-        <div class="greeting__header">
-            <span>Welcome - Sign in </span>
-            <img src="images/close-icon.png" alt="">
-        </div>
-
-        <div class="greeting__login window-cont">
-            <img src="images/welcome.gif" alt="">
-            <h1 class="login__title"> Hello, Stranger </h1>
-            <div class="login__form">
-                <label for="name"> <u>N</u>ame: </label>
-                <input id="name" type="text" name="" required=""> <br>
-                <label for="password"> <u>P</u>assword: </label>
-                <input id="password" type="password" name="" required="" minlength="16"> <br>
-                <input type="submit" value="Login">
+    <main class="main__greeting">
+        <div class="window">
+            <div class="window__header">
+                <span>Welcome - My First JavaScript Project</span>
+                <img src="images/close-icon.png" alt="">
+            </div>
+            <div class="greeting__login window-cont">
+                <img src="images/welcome.gif" alt="">
+                <h1 class="login__title"> Hello, Stranger </h1>
+                <form class="login__form">
+                    <label for="name"> <u>N</u>ame: </label>
+                    <input id="name" type="text" required autocomplete="off"> <br>
+                    <label for="password"> <u>P</u>assword: </label>
+                    <input id="password" type="password"  required minlength="4" autocomplete="off"> <br>
+                    <input type="submit" value="Login...">
+                </form>
+                <!-- <a href="https://github.com/smthousand" target="_blank">GitHub</a>
+                <a href="https://smthousand.tistory.com/" target="_blank">TISTORY</a> -->
             </div>
         </div>
-
-
     </main>
 
     <!-- user interface -->
-    <main class="main__user-interface">
-        <div class="window"></div>
-        <div class="window"></div>
-        <div class="window"></div>
-        <div class="window"></div>
+    <main class="main__user-interface hidden">
+        <div class="window">
+            <div class="window__header">
+                <span>Wheather</span>
+                <img src="images/close-icon.png" alt="">
+            </div>
+        </div>
+        <div class="window">
+            <div class="window__header">
+                <span>Wheather</span>
+                <img src="images/close-icon.png" alt="">
+            </div>
+        </div>
+        <div class="window">
+            <div class="window__header">
+                <span>Wheather</span>
+                <img src="images/close-icon.png" alt="">
+            </div>
+        </div>
+        <div class="window">
+            <div class="window__header">
+                <span>Wheather</span>
+                <img src="images/close-icon.png" alt="">
+            </div>
+        </div>
     </main>
 
-    <script src="login.js"></script>
-
+    <script src="script/greeting.js"></script>
 
 </body>
 

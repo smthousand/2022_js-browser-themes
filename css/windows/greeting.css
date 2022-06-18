@@ -1,11 +1,3 @@
-.greeting__header {
-    display: flex;
-    justify-content: space-between;
-    padding: 3px;
-    color: var(--white);
-    background-color: var(--tertiary);
-    background-repeat: no-repeat;
-}
 
 .greeting__login img {margin-top: -15px;}
 
@@ -16,19 +8,22 @@
     font-weight: bold;
     margin: 10px 0;
 }
-
+.login__form {position: relative;}
 input {
     border: var(--border-doubleline);
     border-image: var(--border-inner-img);
 }
+
 input[type="submit"] {
     border: var(--border-doubleline);
     border-image: var(--border-outer-img);
-    margin-top: 10px;
     position: absolute;
     right: 0;
-    padding: 0 20px;
+    bottom: 0;
+    padding: 2px 20px;
 }
 input[type="submit"]:active {border-image: var(--border-inner-img);}
-label[for="name"] {margin-right: 28px;}
-label[for="password"] {margin-right: 5px;}
+input[type="text"] {width: 280px;}
+input[type="password"] {width: 280px;}
+label[for="name"] {margin-right: 57px;}
+label[for="password"] {margin-right: 35px;}
