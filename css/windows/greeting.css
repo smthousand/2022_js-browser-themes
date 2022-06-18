@@ -1,0 +1,35 @@
+.greeting__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    color: var(--white);
+    background-color: var(--tertiary);
+    background-repeat: no-repeat;
+}
+
+.greeting__login img {margin-top: -15px;}
+
+.login__title {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -.3px;
+    font-size: var(--main-title);
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+input {
+    border: var(--border-doubleline);
+    border-image: var(--border-inner-img);
+}
+
+input[type="name"] {margin-bottom: 20px;}
+input[type="submit"] {
+    border: var(--border-doubleline);
+    border-image: var(--border-outer-img);
+    margin-top: 10px;
+}
+
+input[type="submit"]:active {border-image: var(--border-inner-img);}
+
+label[for="name"] {margin-right: 26px;}
+label[for="password"] {margin-right: 3px;}
