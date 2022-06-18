@@ -26,7 +26,6 @@ input[type="name"] {margin-bottom: 20px;}
 input[type="submit"] {
     border: var(--border-doubleline);
     border-image: var(--border-outer-img);
-    margin-top: 10px;
 }
 
 input[type="submit"]:active {border-image: var(--border-inner-img);}

@@ -5,7 +5,7 @@
 @import "components/window.css";
 
 /* Windows */
-@import "windows/login.css";
+@import "windows/greeting.css";
 
 body {
     width: 100%;
