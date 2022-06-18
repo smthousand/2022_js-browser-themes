@@ -1,6 +1,6 @@
 .window {
     border: 4px solid transparent;
-    border-image: url(/images/window-border.png) 4;
+    border-image: url(../../images/window-border.png) 4;
     background-color: var(--primary);
 }
 
