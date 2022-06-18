@@ -21,14 +21,14 @@ input {
     border: var(--border-doubleline);
     border-image: var(--border-inner-img);
 }
-
-input[type="name"] {margin-bottom: 20px;}
 input[type="submit"] {
     border: var(--border-doubleline);
     border-image: var(--border-outer-img);
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    padding: 0 20px;
 }
-
 input[type="submit"]:active {border-image: var(--border-inner-img);}
-
-label[for="name"] {margin-right: 26px;}
-label[for="password"] {margin-right: 3px;}
+label[for="name"] {margin-right: 28px;}
+label[for="password"] {margin-right: 5px;}

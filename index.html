@@ -11,27 +11,39 @@
 </head>
 
 <body>
-    <div class="window">
-        <div class="window__header">
-            <span class="window__header-title">Welcome - Sign in </span>
+    <!-- greeting -->
+    <main class="main__greeting window">
+        <div class="greeting__header">
+            <span>Welcome - Sign in </span>
             <img src="images/close-icon.png" alt="">
         </div>
 
-        <div class="window__contents login">
+        <div class="greeting__login window-cont">
             <img src="images/welcome.gif" alt="">
             <h1 class="login__title"> Hello, Stranger </h1>
             <div class="login__form">
                 <label for="name"> <u>N</u>ame: </label>
-                <input id="name" type="text" name="" required> <br>
+                <input id="name" type="text" name="" required=""> <br>
                 <label for="password"> <u>P</u>assword: </label>
-                <input id="password" type="password" name="" required minlength="16">
+                <input id="password" type="password" name="" required="" minlength="16"> <br>
                 <input type="submit" value="Login">
             </div>
         </div>
 
 
-    </div>
-    <script src="script/greeting.js"></script>
+    </main>
+
+    <!-- user interface -->
+    <main class="main__user-interface">
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+        <div class="window"></div>
+    </main>
+
+    <script src="login.js"></script>
+
+
 </body>
 
 </html>
