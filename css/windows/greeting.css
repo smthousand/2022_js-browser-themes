@@ -1,4 +1,4 @@
-
+.greeting__login {padding-bottom: 60px; position: relative;}
 .greeting__login img {margin-top: -15px;}
 
 .login__title {
@@ -8,7 +8,6 @@
     font-weight: bold;
     margin: 10px 0;
 }
-.login__form {position: relative;}
 input {
     border: var(--border-doubleline);
     border-image: var(--border-inner-img);
@@ -18,12 +17,23 @@ input[type="submit"] {
     border: var(--border-doubleline);
     border-image: var(--border-outer-img);
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 25px;
+    bottom: 15px;
     padding: 2px 20px;
 }
 input[type="submit"]:active {border-image: var(--border-inner-img);}
-input[type="text"] {width: 280px;}
-input[type="password"] {width: 280px;}
+input[type="text"] {width: 60%;}
+input[type="password"] {width: 60%;}
 label[for="name"] {margin-right: 57px;}
-label[for="password"] {margin-right: 35px;}
+label[for="password"] {margin-right: 34px;}
+
+.login__random-btn {
+    position: absolute;
+    right: 125px;
+    bottom: 15px;
+    padding: 2px 20px;
+    border: var(--border-doubleline);
+    border-image: var(--border-outer-img);
+}
+
+.login__random-btn:active {border-image: var(--border-inner-img);}
