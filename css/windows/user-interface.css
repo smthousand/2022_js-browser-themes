@@ -1,0 +1,38 @@
+
+.main__user-interface {
+    width: inherit;
+    height: inherit;
+    background: url(../../images/background_img.png) repeat-x bottom;
+}
+
+.user-interface__weather {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 300px;
+    height: 200px;
+}
+
+.status-bar__start {
+    width: 56px;
+    height: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(../../images/background_start-btn.png);
+}
+
+.status-bar__clock {
+    width: 64px;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url(../../images/background_clock-btn.png);
+}
+
+.status-bar__clock p {
+    line-height: 28px;
+    padding-left: 25px;
+    font-size: 0.9em;
+}

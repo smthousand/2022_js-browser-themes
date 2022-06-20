@@ -25,7 +25,7 @@ input[type="submit"]:active {border-image: var(--border-inner-img);}
 input[type="text"] {width: 60%;}
 input[type="password"] {width: 60%;}
 label[for="name"] {margin-right: 57px;}
-label[for="password"] {margin-right: 34px;}
+label[for="password"] {margin-right: 35px;}
 
 .login__random-btn {
     position: absolute;

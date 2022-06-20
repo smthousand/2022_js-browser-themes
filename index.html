@@ -12,7 +12,7 @@
 
 <body>
     <!-- greeting -->
-    <main class="main__greeting">
+    <main class="main__greeting hidden">
         <div class="window">
             <div class="window__header">
                 <span>Welcome - My First JavaScript Project</span>
@@ -37,31 +37,30 @@
 
     <!-- user interface -->
     <main class="main__user-interface hidden">
-        <div class="window">
+        <div class="user-interface__weather window">
             <div class="window__header">
-                <span>Wheather</span>
+                <span><span class="header__window-username"></span> - Weather</span>
+                <img src="images/close-icon.png" alt="">
+            </div>
+        </div>
+        <!-- <div class="window">
+            <div class="window__header">
+                <span></span>
                 <img src="images/close-icon.png" alt="">
             </div>
         </div>
         <div class="window">
             <div class="window__header">
-                <span>Wheather</span>
+                <span></span>
                 <img src="images/close-icon.png" alt="">
             </div>
-        </div>
-        <div class="window">
-            <div class="window__header">
-                <span>Wheather</span>
-                <img src="images/close-icon.png" alt="">
-            </div>
-        </div>
-        <div class="window">
-            <div class="window__header">
-                <span>Wheather</span>
-                <img src="images/close-icon.png" alt="">
-            </div>
-        </div>
+        </div> -->
     </main>
+
+    <div class="user-interface__status-bar hidden">
+        <div class="status-bar__start"></div>
+        <div class="status-bar__clock"><p>00:00</p></div>
+    </div>
 
     <script src="script/greeting.js"></script>
 

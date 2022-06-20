@@ -6,16 +6,18 @@
 
 /* Windows */
 @import "windows/greeting.css";
+@import "windows/user-interface.css";
 
 body {
     width: 100%;
-    height: 100vh;
+    height: 100vh;    
     background-color: #039193;
     font-family: 'W95FA', '돋움', 'meiryo', sans-serif;
     font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .hidden {
