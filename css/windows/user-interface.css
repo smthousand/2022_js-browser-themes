@@ -1,4 +1,3 @@
-
 .main__user-interface {
     width: inherit;
     height: inherit;
@@ -31,8 +30,8 @@
     background-image: url(../../images/background_clock-btn.png);
 }
 
-.status-bar__clock p {
+.status-bar__clock span {
     line-height: 28px;
     padding-left: 25px;
-    font-size: 0.9em;
+    font-size:.9em;
 }

@@ -7,7 +7,6 @@ const windowUsername = document.querySelector(".header__window-username")
 
 const greeting = document.querySelector(".main__greeting");
 const userInterface = document.querySelector(".main__user-interface");
-const statusBar = document.querySelector(".user-interface__status-bar"); 
 
 const HIDDEN_CLASSNAME = "hidden" 
 const USERNAME_KEY = "username"
@@ -23,7 +22,6 @@ function onLoginSubmit(event) {
 
 function paintLogins(username) {
     windowUsername.innerText = `${username}`;
-    statusBar.classList.remove(HIDDEN_CLASSNAME);
     userInterface.classList.remove(HIDDEN_CLASSNAME);
 }
 const savedUsername = localStorage.getItem(USERNAME_KEY);
