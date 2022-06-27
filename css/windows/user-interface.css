@@ -8,8 +8,8 @@
     position: absolute;
     top: 30%;
     left: 30%;
-    width: 300px;
-    height: 200px;
+    /* width: 300px;
+    height: 200px; */
 }
 
 .status-bar__start {
@@ -34,4 +34,19 @@
     line-height: 28px;
     padding-left: 25px;
     font-size:.9em;
+}
+
+/* weather */
+.weather__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.weather__info img {
+    margin-right: 10px;
+}
+
+.weather__info h1 {
+    margin-top: 0;
 }

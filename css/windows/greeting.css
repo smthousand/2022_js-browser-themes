@@ -1,13 +1,13 @@
 .greeting__login {padding-bottom: 60px; position: relative;}
 .greeting__login img {margin-top: -15px;}
 
-.login__title {
+/* .login__title {
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: -.3px;
     font-size: var(--main-title);
     font-weight: bold;
     margin: 10px 0;
-}
+} */
 input {
     border: var(--border-doubleline);
     border-image: var(--border-inner-img);
