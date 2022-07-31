@@ -1,14 +1,16 @@
-.window {
+/* dragged */
+#frame:active {cursor: move;}
+.frame {
     border: 4px solid transparent;
-    border-image: url(../../images/window-border.png) 4;
+    border-image: url(../../images/frame-border.png) 4;
     background-color: var(--primary);
 }
 
-.window-cont {
+.frame-cont {
     padding: 15px 25px;
 }
 
-.window__header {
+.frame__header {
     display: flex;
     justify-content: space-between;
     padding: 3px;

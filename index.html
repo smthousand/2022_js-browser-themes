@@ -13,12 +13,12 @@
 <body>
     <!-- greeting -->
     <main class="main__greeting hidden">
-        <div class="window">
-            <div class="window__header">
+        <div class="frame" id="frame">
+            <div class="frame__header">
                 <span>Welcome - My First JavaScript Project</span>
                 <img src="images/close-icon.png" alt="">
             </div>
-            <div class="greeting__login window-cont">
+            <div class="greeting__login frame-cont">
                 <img class="login__img" src="images/welcome.gif" alt="">
                 <h1 class="login__title"> Hello, Stranger </h1>
                 <form class="login__form">
@@ -37,12 +37,12 @@
 
     <!-- user interface -->
     <main class="main__user-interface hidden">
-        <div class="user-interface__weather window">
-            <div class="window__header">
+        <div class="user-interface__weather frame" id="frame">
+            <div class="frame__header">
                 <span><span class="header__window-username"></span> - Weather</span>
                 <img src="images/close-icon.png" alt="">
             </div>
-            <div class="weather__info window-cont">
+            <div class="weather__info frame-cont">
                 <img src="images/info.png" alt="">
                 <div><h1></h1><span></span></div>
             </div>
@@ -71,6 +71,7 @@
     <script src="script/greeting.js"></script>
     <script src="script/clock.js"></script>
     <script src="script/weather.js"></script>
+    <script src="script/drag.js"></script>
 
 </body>
 

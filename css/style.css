@@ -2,11 +2,11 @@
 @import "variables.css";
 
 /* Component */
-@import "components/window.css";
+@import "components/frame.css";
 
-/* Windows */
-@import "windows/greeting.css";
-@import "windows/user-interface.css";
+/* Frames */
+@import "frames/greeting.css";
+@import "frames/user-interface.css";
 
 body {
     width: 100%;
@@ -17,7 +17,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 h1 {
